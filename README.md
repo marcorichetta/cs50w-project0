@@ -1,2 +1,10 @@
-# cs50-web
-Repo para los proyectos del curso CS50W (https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/)
+# Project 0
+
+Web Programming with Python and JavaScript
+
+# My Webpage
+
+This is CS50
+===
+
+Hi! I'm Marco Richetta and this is my personal page.

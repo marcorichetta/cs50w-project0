@@ -1,0 +1,9 @@
+h1 {
+	color: darkred;
+	border: 2px double bisque;
+}
+
+li {
+	color: royalblue;
+	font: 300 Helvetica;
+}
