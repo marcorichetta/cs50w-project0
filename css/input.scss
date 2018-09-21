@@ -27,7 +27,25 @@ h1, li {
 	font-size: x-large;
 }
 
+/* Nesting SCSS Property */
+nav {
+	div {
+		a {
+			background-color: aliceblue;
+		}
+	}
+}
 
+/* Extend/Inheritance SCSS Property 
+	https://sass-lang.com/guide#topic-7
+*/
+%title-color {
+	color: coral;
+}
+
+.nav-item {
+	@extend %title-color;
+}
 
 /* @media query */
 @media only screen and (max-width: 600px) {
