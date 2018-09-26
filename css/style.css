@@ -22,6 +22,21 @@ h1, li {
   padding: 12px 25px;
 }
 
+/* Specify the behaviour of the container class on flexbox.html */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* For any div that is immediately the child of the container */
+.container > div {
+  background-color: salmon;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
+
 /* #id selector */
 #Important {
   font-size: x-large;
